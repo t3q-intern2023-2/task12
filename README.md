@@ -1,7 +1,7 @@
 # task12
 kc_bert topic modeling
 
-#폴더
+##폴더 구성
 
 Documents
 
