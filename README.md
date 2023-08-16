@@ -25,3 +25,5 @@ PyTorch Trainer와 Pretrain된 KcBERT 기반 ratsgo-nlp 실습코드를 AI-hub�
 
 2. doc_cls_deploy_finetuning.ipynb : 추론 서비스 코드
 
+3. Summary.pdf : task12에 대한 내용 개요
+
