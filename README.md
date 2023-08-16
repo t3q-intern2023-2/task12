@@ -3,20 +3,20 @@ kc_bert topic modeling
 
 ## 폴더 구성
 
-Documents
+1. documents : 추론할 때 쓰이는 txt 파일 문서
 
-report
+2. report : train data와 validation data json 파일이 있는 폴더, Tokenizer 저장
 
-train_result_csv
+3. train_result_csv : 학습이 완료된 후, 각 에폭마다 loss, accuracy 값을 csv 파일로 저장하는 폴더
 
-plots
+4. plots : 학습이 완료된 후, loss, accuracy 그래프 png 파일로 저장하는 폴더
 
-model
+5. model : 학습이 진행된 체크포인트 저장 폴더, 저장한 체크포인트는 추후 추론에 활용
 
-src
+6. src : 수정한 ratsnlp 패키지가 다운로드되는 폴더
 
-#파일
+## 파일 구성
 
-classification_finetuning.ipynb
+1. classification_finetuning.ipynb
 
-doc_cls_deploy_finetuning.ipynb
+2. doc_cls_deploy_finetuning.ipynb
