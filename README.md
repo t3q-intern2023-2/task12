@@ -50,7 +50,7 @@ task12-main
     ├── doc_cls_deploy_finetuning.ipynb
     ├── LICENSE
     ├── model
-    │   ├── epoch=#-val_loss=###.ckpt
+    │   ├── epoch=@-val_loss=@@@ckpt
     │   └── lightning_logs
     ├── plots
     │   ├── test07_acc_batch512_seq256_epoch79_lr5e-05.png
