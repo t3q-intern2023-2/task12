@@ -1,7 +1,7 @@
 # task12
 kc_bert topic modeling
 
-## Introduce
+## Introduction
 
 PyTorch Trainer와 Pretrain된 KcBERT 기반 ratsgo-nlp 실습코드를 AI-hub에서 제공해주는 요약문 및 레포트 생성 데이터를 이용해 Finetuning하고 문서 형식을 분류해주는 서비스
 
