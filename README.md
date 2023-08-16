@@ -82,7 +82,7 @@ task12-main
     │   └── requirements.txt
     ├── summary.pdf
     └── train_result_csv
-        ├── loss_acc_info_batch512_seq256_epoch79_lr5e-05_test07.csv
+        └── loss_acc_info_batch512_seq256_epoch79_lr5e-05_test07.csv
 
 ```
 
