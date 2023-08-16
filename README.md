@@ -11,9 +11,9 @@ PyTorch Trainer와 Pretrain된 KcBERT 기반 ratsgo-nlp 실습코드를 AI-hub�
 
 2. report : train data와 validation data json 파일이 있는 폴더, Tokenizer 저장
 
-3. train_result_csv : 학습이 완료된 후, 각 에폭마다 loss, accuracy 값을 csv 파일로 저장하는 폴더
+3. train_result_csv : 학습이 완료된 후, 각 에폭마다 loss, accuracy 값을 csv 파일을 저장하는 폴더
 
-4. plots : 학습이 완료된 후, loss, accuracy 그래프 png 파일로 저장하는 폴더
+4. plots : 학습이 완료된 후, loss, accuracy 그래프 png 파일을 저장하는 폴더
 
 5. model : 학습이 진행된 체크포인트 저장 폴더, 저장한 체크포인트는 추후 추론에 활용
 
