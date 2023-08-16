@@ -1,6 +1,10 @@
 # task12
 kc_bert topic modeling
 
+## Introduce
+
+PyTorch Trainer와 Pretrain된 KcBERT 기반 ratsgo-nlp 실습코드를 AI-hub에서 제공해주는 요약문 및 레포트 생성 데이터를 이용해 Finetuning
+
 ## 폴더 구성
 
 1. documents : 추론할 때 쓰이는 txt 파일 문서
