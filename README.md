@@ -27,37 +27,37 @@ PyTorch Trainer와 Pretrain된 KcBERT 기반 ratsgo-nlp 실습코드를 AI-hub�
 
 3. Summary.pdf : task12에 대한 내용 개요
 
+## 트리 구조
 ```bash
 task12-main
 └── task12-main
     ├── .gitignore
     ├── classification_finetuning.ipynb
     ├── documents
-    │   ├── briefing.txt
-    │   ├── edit.txt
-    │   ├── history.txt
-    │   ├── koreabank.txt
-    │   ├── meeting.txt
-    │   ├── meeting2.txt
-    │   ├── meeting3.txt
-    │   ├── minute1.txt
-    │   ├── news.txt
-    │   ├── news2.txt
-    │   ├── test05.txt
-    │   ├── ti.txt
-    │   └── untitled.txt
+    │   ├── briefing.txt #보도자료
+    │   ├── edit.txt #사설
+    │   ├── history.txt #역사 기록물
+    │   ├── koreabank.txt #연설문
+    │   ├── meeting.txt #회의록
+    │   ├── meeting2.txt #회의록
+    │   ├── meeting3.txt #보고서(AI 허브 데이터)
+    │   ├── minute1.txt #회의록(AI 허브 데이터)
+    │   ├── news.txt #뉴스
+    │   ├── news2.txt #사설
+    │   ├── test05.txt #사설
+    │   ├── ti.txt #문학작품
+    │   └── untitled.txt #뉴스
     ├── doc_cls_deploy_finetuning.ipynb
     ├── LICENSE
     ├── model
-    │   └── readme.md
+    │   ├── epoch=#-val_loss=###.ckpt
+    │   └── lightning_logs
     ├── plots
-    │   ├── readme.md
     │   ├── test07_acc_batch512_seq256_epoch79_lr5e-05.png
     │   └── test07_loss_batch512_seq256_epoch79_lr5e-05.png
     ├── README.md
     ├── report
     │   ├── data_frame.ipynb
-    │   ├── readme.md
     │   ├── test.json
     │   └── train.json
     ├── requirements.txt
@@ -83,6 +83,6 @@ task12-main
     ├── summary.pdf
     └── train_result_csv
         ├── loss_acc_info_batch512_seq256_epoch79_lr5e-05_test07.csv
-        └── readme.md
 
 ```
+
