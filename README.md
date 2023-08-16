@@ -27,3 +27,62 @@ PyTorch Trainer와 Pretrain된 KcBERT 기반 ratsgo-nlp 실습코드를 AI-hub�
 
 3. Summary.pdf : task12에 대한 내용 개요
 
+```bash
+task12-main
+└── task12-main
+    ├── .gitignore
+    ├── classification_finetuning.ipynb
+    ├── documents
+    │   ├── briefing.txt
+    │   ├── edit.txt
+    │   ├── history.txt
+    │   ├── koreabank.txt
+    │   ├── meeting.txt
+    │   ├── meeting2.txt
+    │   ├── meeting3.txt
+    │   ├── minute1.txt
+    │   ├── news.txt
+    │   ├── news2.txt
+    │   ├── test05.txt
+    │   ├── ti.txt
+    │   └── untitled.txt
+    ├── doc_cls_deploy_finetuning.ipynb
+    ├── LICENSE
+    ├── model
+    │   └── readme.md
+    ├── plots
+    │   ├── readme.md
+    │   ├── test07_acc_batch512_seq256_epoch79_lr5e-05.png
+    │   └── test07_loss_batch512_seq256_epoch79_lr5e-05.png
+    ├── README.md
+    ├── report
+    │   ├── data_frame.ipynb
+    │   ├── readme.md
+    │   ├── test.json
+    │   └── train.json
+    ├── requirements.txt
+    ├── setup.py
+    ├── src
+    │   ├── ratsnlp
+    │   │   ├── nlpbook
+    │   │   │   ├── classification
+    │   │   │   │   ├── arguments.py
+    │   │   │   │   ├── corpus.py
+    │   │   │   │   ├── deploy.py
+    │   │   │   │   ├── task.py
+    │   │   │   │   ├── __init__.py
+    │   │   │   │   └── __pycache__
+    │   │   │   ├── data_utils.py
+    │   │   │   ├── metrics.py
+    │   │   │   ├── trainer.py
+    │   │   │   ├── utils.py
+    │   │   │   └── __init__.py
+    │   │   └── __init__.py
+    │   ├── readme.md
+    │   └── requirements.txt
+    ├── summary.pdf
+    └── train_result_csv
+        ├── loss_acc_info_batch512_seq256_epoch79_lr5e-05_test07.csv
+        └── readme.md
+
+```
