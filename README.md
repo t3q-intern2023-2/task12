@@ -17,6 +17,6 @@ kc_bert topic modeling
 
 ## 파일 구성
 
-1. classification_finetuning.ipynb
+1. classification_finetuning.ipynb : 입력 전처리 작업, 체크포인트 모델 만드는 코드 (train, validation)
 
-2. doc_cls_deploy_finetuning.ipynb
+2. doc_cls_deploy_finetuning.ipynb : 추론 서비스 코드
